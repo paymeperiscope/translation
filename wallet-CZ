@@ -1,0 +1,595 @@
+DULEZITE
+PRELOZIT JEN VIZ PRIKLAD! Jen za rovnitkem v uvozovkach.
+
+$lang['login']					= 'Prelozit';
+
+Vse ostatni nechat. Nemazat zadne charaktery. Muze poskodit celou strukturu!
+
+
+
+
+
+/*******************
+
+Site front end
+
+*******************/
+
+//common terms
+$lang['login']					= 'Přihlásit se';
+$lang['logout']					= 'Odhlásit se';
+$lang['my_account']				= 'Můj účet';
+$lang['my_downloads']			= 'Mé stahování';
+$lang['enabled']				= 'Dostupné';
+$lang['disabled']				= 'Nedostupné';
+$lang['mode']					= 'Mód';
+$lang['currency']				= 'Měna';
+$lang['active']					= 'Aktivní';
+$lang['yes']					= 'Ano';
+$lang['no']						= 'Ne';
+$lang['download_link']			= 'Klikni zde pro přístup ke tvému stažení!';
+$lang['catalog']				= 'Katalog';
+$lang['account']				= 'Účet';
+$lang['close']					= 'Zavřít';
+$lang['back']           		= 'Zpět';
+
+$lang['empty_cart']				= 'Tvůj košík je prázdný';
+$lang['single_item']			= 'Máš %d položky v košíku';
+$lang['multiple_items']			= 'Máš %d položky v košíku';
+$lang['empty_view_cart']		= 'Žádné položky ve tvém košíku!';
+$lang['your_cart']				= 'Tvůj košík';
+
+$lang['on_sale']				= 'Na prodej!';
+$lang['related_products_title']	= 'Také by se ti mohlo líbit ...';
+$lang['form_submit']			= 'Přijmout';
+$lang['form_register']			= 'Přihlas se zdarma';
+$lang['form_login']				= 'Přihlásit se';
+$lang['reset_password']			= 'Resetovat heslo';
+$lang['form_search']			= 'Hledat';
+$lang['form_cancel']			= 'Zrušit';
+$lang['form_add_to_cart']		= 'Přidat do košíku';
+$lang['form_update_cart']		= 'Aktualizovat košík';
+$lang['form_checkout']			= 'Pokladna';
+$lang['form_continue']			= 'Pokračovat';
+$lang['form_previous']			= 'Upravit fakturaci';
+$lang['form_choose']			= 'Vybrat';
+$lang['form_edit']				= 'Úpravy';
+$lang['form_delete']			= 'Smazat';
+$lang['form_search']			= 'Hledat';
+$lang['form_view']				= 'Náhled';
+$lang['form_save']				= 'Uložit';
+$lang['form_from']				= 'od';
+$lang['form_to']				= 'k';
+
+$lang['step_1']					= 'Krok 1';
+$lang['step_2']					= 'Krok 2';
+$lang['free_shipping_basic']	= 'Doprava zdarma (základní)';
+
+$lang['search']					= 'Hledat';
+$lang['search_error']			= 'Nezadal jsi hledaný výraz';
+$lang['amount']					= 'Částka';
+$lang['custom_amount']			= 'Libovolné množství';
+$lang['preset_amount']			= 'Přednastavené množství';
+$lang['recipient_name']			= 'Jméno příjemce';
+$lang['recipient_email']		= 'Email příjemce';
+$lang['sender_email']			= 'Email odesílatele';
+$lang['custom_greeting']		= 'Libovolná uvítací zpráva';
+$lang['check_out']				= 'Kontrola';
+
+$lang['sort_by_name_asc']		= 'Seřadit podle názvu od A do Z';
+$lang['sort_by_name_desc']		= 'Seřadit podle názvu od Z do A';
+$lang['sort_by_price_asc']		= 'Seřadit podle ceny od nejnižší po nejvyšší';
+$lang['sort_by_price_desc']		= 'Seřadit podle ceny od nejvyšší po nejnižší';
+
+$lang['products']				= 'Produkty';
+$lang['out_of_stock']			= 'Vyprodáno';
+$lang['no_products']			= 'V současné době nejsou v této kategorii dostupné žádné produkty.';
+$lang['no_image_available']		= 'Žádný dostupný obrázek';
+$lang['product_reg']			= 'reg:';
+$lang['product_price']			= 'Cena:';
+$lang['product_sale']			= 'VÝPRODEJ:';
+$lang['available_options']		= 'Dostupné možnosti';
+$lang['choose_option']			= 'Vyber možnost';
+$lang['tab_description']		= 'Popis';
+$lang['tab_related_products']	= 'Související produkty';
+$lang['subcategories']			= 'Podkategorie';
+$lang['edit_category']			= 'Upravit kategorii';
+$lang['edit_product']			= 'Upravit produkt';
+
+$lang['loading']					= 'Loading&hellip;';
+$lang['coupon_label']				= 'Pokud máš kupón, vlož jej zde:';
+$lang['gift_card_label']			= 'Pokud máš dárkový certifikát, vlož jej zde:';
+$lang['apply_gift_card']			= 'Použít dárkovou kartu';
+$lang['apply_coupon']				= 'Použít kupón';
+$lang['customer_information']		= 'Informace o zákazníkovi';
+$lang['error_save_payment']			= 'Při ukládání platby došlo k problému';
+$lang['error_choose_payment']		= 'Prosím, vyber způsob platby';
+$lang['error_choose_shipping']		= 'Prosím, vyber způsob dopravy';
+$lang['continue_shopping']			= 'Pokračovat v nákupu';
+$lang['register_now']				= 'Registrovat ihned';
+$lang['submit_order']				= 'Odeslat objednávku';
+$lang['edit_customer_information']	= 'Upravit informace o zákazníkovi';
+$lang['communication_error']		= 'Objevil se neočekávaný problém při komunikaci se serverem.';
+$lang['no_payment_needed']			= 'Není vyžadována žádná platba';
+$lang['choose_payment_method']		= 'Vyber možnost platby';
+$lang['shipping_method']			= 'Možnost doručení';
+$lang['no_shipping_needed']			= 'Tvoje objednávka neobsahuje žádné položky, které vyžadují přepravu.';
+$lang['payment_information']		= 'Informace o platbě';
+$lang['payment_method']				= 'Možnost platby';
+$lang['submit_payment_method']		= 'Přijmout možnost platby';
+$lang['product_information']		= 'Info o produktu';
+$lang['price_and_quantity']			= 'Cena &amp; Množství';
+$lang['sku']						= 'SKU';
+$lang['name']						= 'Jméno';
+$lang['price']						= 'Cena';
+$lang['description']				= 'Popis';
+$lang['quantity']					= 'Množství';
+$lang['totals']						= 'Celkem';
+$lang['group_discount']				= 'Skupinová sleva';
+$lang['subtotal']					= 'Mezisoučet';
+$lang['cart_total']					= 'Celkem';
+$lang['coupon_discount']			= 'Kupónová sleva';
+$lang['gift_card_discount']			= 'Dárková sleva';
+$lang['discounted_subtotal']		= 'Slevněný mezisoučet';
+$lang['shipping']					= 'Doručení';
+$lang['tax']						= 'Taxa';
+$lang['taxes']						= 'Taxy';
+$lang['grand_total']				= 'Celkový součet';
+$lang['address_manager']			= 'Správce adresy';
+$lang['address_form']				= 'Formulář adresy';
+$lang['your_addresses']				= 'Tvé adresy';
+$lang['address_button']				= 'Změnit adresu';
+$lang['shipping_address_button']	= 'Změnit dodací adresu';
+$lang['billing_address_button']		= 'Změnit fakturační adresu';
+$lang['shipping_method_button']		= 'Změnit způsob dopravy';
+$lang['billing_method_button']		= 'Změnit metodu fakturace';
+$lang['shipping_and_billing']		= 'Dodací &amp; Fakturační informace';
+$lang['billing_address']			= 'Fakturační adresa';
+$lang['choose_billing_address']		= 'Zvol tvou fakturační adresu';
+$lang['use_address_for_shipping']	= 'Použít tuto adresu pro dopravu';
+$lang['shipping_address']			= 'Adresa doručení';
+$lang['shipping_information']		= 'Přepravní informace';
+$lang['billing_information']		= 'Fakturační údaje';
+$lang['choose_shipping_address']	= 'Zvol dodací adresu';
+$lang['choose_address']				= 'Vyber adresu';
+$lang['ship_to_address']			= 'Doručit na tuto adresu';
+$lang['contact_info']				= 'Kontaktní informace';
+$lang['address_company']			= 'Společnost';
+$lang['address']					= 'Adresa';
+$lang['address1']					= 'Adresa 1';
+$lang['address2']					= 'Adresa 2';
+$lang['address_firstname']			= 'Jméno';
+$lang['address_lastname']			= 'Příjmení';
+$lang['address_email']				= 'Email';
+$lang['address_phone']				= 'Telefon';
+$lang['address_city']				= 'Město';
+$lang['address_zip']				= 'PSČ';
+$lang['address_country']			= 'Země';
+$lang['address_state']				= 'Stát';
+$lang['message_address_saved']		= 'Tvá adresa byla uložena!';
+
+$lang['default']					= 'Standardní';
+$lang['additional_order_details']	= 'Dodatečné podrobnosti objednávky';
+$lang['additional_details']			= 'Dodatečné detaily';
+$lang['heard_about']				= 'Jak jsi se o nás dozvěděl?';
+$lang['shipping_instructions']		= 'Přepravní poznámky';
+
+//checkout confirmation
+$lang['thank_you']					= 'Díky za nákupy s'; // terminates with company/site name, defined in gocart config as 'company_name'
+
+//authorize.net library messages
+$lang['please_fix_errors']				= 'Prosím, oprav následující chyby:';
+$lang['enter_card_name']				= 'Prosím, zadej jméno a příjmení, které je uvedeno na kartě';
+$lang['invalid_card_exp']				= 'Datum vypršení platnosti se nezdá být platné';
+$lang['invalid_card_num']				= 'Číslo kreditní karty, které jsi zadal, není platné';
+$lang['enter_card_code']				= 'Prosím, zadej trojmístný bezpečnostní kód na zadní straně karty';
+$lang['transaction_declined']			= 'Transakce odmítnuta. Prosím, zkontroluj informace o své kartě a zkus to znovu.';
+$lang['enter_test_mode_credentials']	= 'Musíš zadat přihlašovací údaje pro režim TEST';
+$lang['enter_live_mode_credentials']	= 'Musíš zadat přihlašovací údaje pro režim LIVE';
+$lang['all_required_fields']			= 'Vyplň prosím všechna požadovaná pole.';
+$lang['card_number']					= 'Číslo kreditní karty';
+$lang['expires_on']						= 'Datum vypršení';
+$lang['cvv_code']						= 'CVV kód';
+
+//giftcards
+$lang['giftcard']					= 'Dárková karta';
+$lang['giftcard_choose_amount']		= 'Zvol částku dárkové karty';
+$lang['giftcard_custom_amount']		= 'Libovolné množství';
+$lang['giftcard_to']				= 'Komu (Jméno)';
+$lang['giftcard_email']				= 'Na (Email)';
+$lang['giftcard_from']				= 'Od';
+$lang['giftcard_message']			= 'Tvoje zpráva';
+$lang['giftcard_excerpt']			= 'Dárková karta pro přítele <br/>Na: %s';
+
+$lang['email']						= 'Email';
+$lang['password']					= 'Heslo';
+$lang['confirm_password']			= 'Potvrdit heslo';
+$lang['return_to_login']			= 'Zpět k přihlášení';
+$lang['forgot_password']			= 'Zapomenuté heslo';
+$lang['keep_me_logged_in']			= 'Zůstat přihlášen!';
+$lang['register']					= 'Registrovat';
+$lang['login_failed']				= 'Ověřování se nezdařilo!';
+$lang['go_to_login']				= 'Přejít k přihlášení';
+
+$lang['account_registration']			= 'Registrace účtu';
+$lang['registration_thanks']			= 'Díky za registraci %s!';
+$lang['error_email']					= 'Požadovaný e-mail je již používán.';
+$lang['error_no_account_record']		= 'Neexistuje žádný záznam o tvém účtu.';
+$lang['message_new_password']			= 'Nové heslo bylo vygenerováno a odesláno na tvůj email.';
+$lang['message_account_updated']		= 'Tvůj účet byl aktualizován';
+
+$lang['error_invalid_shipping_method']		= 'Vyber prosím platný způsob dopravy.';
+$lang['delete_address_confirmation']		= 'Opravdu chceš smazat tuto adresu?';
+$lang['error_must_have_address']			= 'Musíš ponechat minimálně jednu adresu ve Správci adres.';
+$lang['account_information']				= 'Informace o účtu';
+$lang['account_company']					= 'Společnost';
+$lang['account_firstname']					= 'Jméno';
+$lang['account_lastname']					= 'Příjmení';
+$lang['account_email']						= 'Email';
+$lang['account_phone']						= 'Telefon';
+$lang['account_password']					= 'Heslo';
+$lang['account_confirm']					= 'Potvrdit heslo';
+$lang['account_newsletter_subscribe']		= 'Chci odebírat emailem novinky';
+$lang['account_password_instructions']		= 'Pokud nechceš změnit <br/> heslo, nech obě pole prázdná.';
+$lang['default_billing']					= 'Výchozí fakturace';
+$lang['default_shipping']					= 'Výchozí doprava';
+$lang['order_history']						= 'Historie objednávek';
+$lang['order_date']							= 'Obejdnat na';
+$lang['order_number']						= 'Číslo objednávky';
+$lang['order_status']						= 'Status';
+$lang['add_address']						= 'Přidat adresu';
+$lang['no_order_history']					= 'Nemáš žádné objednávky';
+
+//cart library messages
+$lang['coupon_not_apply']					= 'Kupon, který jsi zadal, se nevztahuje na žádný produkt v košíku.';
+$lang['coupon_applied']						= 'Kupón byl aplikován na tvé produkty.';
+$lang['coupon_invalid']						= 'Omlouváme se, ale kupón, který jsi zadal, není v tomto okamžiku platný.';
+$lang['coupon_already_applied']				= 'Tento kupón již byl použit na tvé položky.';
+$lang['invalid_coupon_code']				= 'Kupón s tímto kódem neexistuje. Zkontroluj, zda si jej správně zadal.';
+$lang['giftcard_balance_applied']			= 'Měl by jsi vidět zůstatek své karty.';
+$lang['giftcard_zero_balance']				= 'Omlouváme se, ale dárkový kartám, které jsi zadal, vypršela platnost nebo má nulový zůstatek.';
+$lang['giftcard_not_exist']					= 'Kód dárkové karty, který jsi zadal, neexistuje.';
+$lang['giftcard_already_applied']			= 'Tvá dárková karta již byla použita.';
+$lang['error_updating_cart']				= 'Došlo k chybě při aktualizaci košíku!';
+$lang['not_enough_stock']					= 'Požadované množství produktu "%s" nemohlo být přidáno. Máme pouze %d položek skladem.';
+$lang['remove_item']						= 'Jsi si jist, že chceš odstranit tuto položku z košíku?';
+
+
+// CUSTOM
+$lang['username'] = "Uživatelské jméno";
+$lang['enter_username'] = "Zadej uživatelské jméno";
+$lang['my_transactions'] = "Transakce";
+$lang['load_amount'] = "Poslat částku";
+$lang['merchant_transaction'] = "Transakce obchodníka";
+$lang['continue'] = "Pokračovat";
+$lang['hi'] = "Jsi přihlášen jako:";
+$lang['myoffice'] = "Jít do MyOffice";
+$lang['confirm'] = "Potvrdit transakci";
+$lang['customer_card'] = "Chystáš se poslat kredity:";
+$lang['photo'] = "Foto";
+$lang['transaction_was_send'] = "Detaily transakce";
+$lang['recepient_sender'] = "Příjemce / Odesílatel";
+$lang['status'] = "Status";
+$lang['type'] = "Typ transakce";
+$lang['date_time'] = "Datum transakce";
+$lang['current_course_title'] = "Aktuální kurzy";
+$lang['set_put'] = "Nastavit PUT";
+$lang['merchant_percentage'] = "Obchodník";
+$lang['merchant_account'] = "Údaje o podniku";
+$lang['merchant_account_description'] = "Vyplň pouze pokud chceš účet obchodníka.";
+$lang['name_establishment'] = "Název společnosti";
+$lang['type_establishment'] = "Kategorie podniku";
+$lang['set_merchant_put'] = "PUT podniku (v %)";
+$lang['merchant_address'] = "Adresa podniku";
+$lang['merchant_city'] = "Město";
+$lang['merchant_zip'] = "PSČ";
+$lang['merchant_country'] = "Země - sídlo podniku";
+$lang['opening_mon'] = "Pondělí";
+$lang['opening_tue'] = "Úterý";
+$lang['opening_wen'] = "Středa";
+$lang['opening_thu'] = "Čtvrtek";
+$lang['opening_fri'] = "Pátek";
+$lang['opening_sat'] = "Sobota";
+$lang['opening_sun'] = "Neděle";
+$lang['opening_hours'] = "Otevírací doba";
+$lang['load_amount_reg'] = "Poslat částku (z mé PayMe peněženky)";
+$lang['payme_currency'] = "PayMe měna";
+$lang['update_merchant_account'] = "Nastavení";
+$lang['new_account'] = "Vytvoř nový účet";
+$lang['user_account'] = "Účet uživatele";
+$lang['pay_with_qr_code'] = "Zaplať QR kódem";
+$lang['account_status'] = "Status účtu";
+$lang['wallet_balance'] = "Celkem";
+$lang['your_wallet_balance'] = "tvůj zůstatek v peněžence je";
+$lang['registration_complete'] = "Registrace byla dokončena.";
+$lang['NSF'] = "Nedostatek prostředků v zákaznickém účtu.";
+$lang['new_user_account'] = "Osobní";
+$lang['new_merchant_account'] = "Podnikatelský";
+$lang['account_dob'] = "Datum narození";
+$lang['create_account'] = "Vytvořit účet";
+$lang['already_have_account'] = "Už máš účet? Přihlas se zde";
+$lang['register_success_info_title'] = "TVŮJ ÚČET JE PŘIPRAVEN!";
+$lang['register_success_info_description'] = "Účet potvrdíš pomocí odkazu, který byl zaslán na tvůj email.";
+$lang['send_money'] = "Pošli PayMe kredit";
+$lang['request_money'] = "Požadované množství";
+$lang['top_up'] = "TopUp - Dobití účtu";
+$lang['my_balance'] = "PayMe peněženka";
+$lang['my_account'] = "Můj účet";
+$lang['qr_code'] = "QR kód";
+$lang['register_confirmed_info_title'] = "SKVĚLE, TVŮJ ÚČET BYL AKTIVOVÁN!";
+$lang['register_confirmed_info_description'] = "Nyní se můžeš přihlásit ke svému účtu.";
+$lang['wrong_username'] = "Špatné uživatelské jméno";
+$lang['you_have_received_payment_from'] = "Právě jsi obdržel kredity od";
+$lang['back_to_wallet'] = "Zpátky do peněženky";
+$lang['available_balance'] = "Zůstatek";
+$lang['pending_charges'] = "Čekající platby";
+$lang['create_now'] = "Vytvořit ihned";
+$lang['email_invitation'] = "Emailová pozvánka";
+$lang['send_email_invitation'] = "Poslat emailovou poznánku";
+$lang['invitation_was_send'] = "Emailová pozvánka byla odeslána.";
+$lang['accept_payment'] = "Přijmout platbu";
+$lang['topup_customer'] = "Nabít zákazníkovi";
+$lang['update_user_account'] = "Nastavení";
+$lang['update_password'] = "Aktualizovat heslo";
+$lang['password_was_changed'] = "Heslo bylo změněno";
+$lang['dob'] = "Datum narození";
+$lang['put'] = "PUT";
+$lang['add_employee'] = "Přidat zaměstnance";
+$lang['merchant_account_was_updated'] = "Podnikatelský účet byl aktualizován.";
+$lang['list_employes'] = "Zaměstnanci";
+$lang['edit_employee'] = "Upravit zaměstnance";
+$lang['no_business_account_selected'] = "Nevybrán žádný podnikatelský účet";
+$lang['you_have_sended_payment_to'] = "Odeslal jsi platbu na";
+$lang['you_have_sended_payment_to2'] = "Odeslat platbu pro firmu";
+$lang['comming_soon'] = "Již brzy";
+
+
+$lang['top-up2'] = "TopUp - Dobití peněženky";
+$lang['top-up-how'] = "Jak dobít PayMe peněženku?";
+$lang['top-up-info1'] = "Dobij svou peněženku na jakémkoliv místě ve tvém okolí, kde přijímají PayMe.";
+$lang['top-up-info2'] = "Každý PayMe uživatel může dobít jakýkoliv jiný uživatelský účet.";
+$lang['top-up-info3'] = "Zjisti, kde přijímají PayMe pomocí PayMe finder aplikace. (Již brzy)";
+$lang['send_amount'] = "Částka";
+$lang['tip'] = "Spropitné";
+$lang['accept_transaction_title'] = "Příjmout platbu od";
+$lang['username_not_found'] = "Uživatelské jméno nebylo nalezeno.";
+$lang['top-up'] = "TopUp Your Wallet.";
+$lang['employee_code'] = "Vyber přístupový kód pro zaměstnance";
+$lang['what-kind-account'] = "Jaky typ účtu?";
+
+$lang['employee_was_updated'] = "Zaměstnanec uložen.";
+$lang['employee_access_code'] = "Přístupový kód";
+$lang['employee_access_url'] = "Přístup pro zaměstnance";
+$lang['email_exists'] = "Uživatel s tímto emailem byl již registrován!";
+$lang['affiliate_username'] = "Kdo tě doporučil (Uživatelské jméno)";
+$lang['describe_business'] = "Popis činnosti podniku";
+$lang['daily_report_transactions'] = "Denní report";
+$lang['monthly_report_transactions'] = "Měsíční Report";
+$lang['change_password'] = "Změna hesla";
+$lang['url'] = "Webové stránky";
+$lang['send_money_to_business'] = "Poslat peníze firmě";
+$lang['language'] = "Jazykové nastavení";
+$lang['new_password'] = "Nové heslo";
+$lang['new_password_confirm'] = "Potvrdit nové heslo";
+$lang['form_register2']	= 'Majitel účtu';
+$lang['you_have_sent_funds_to'] = 'Právě jsi odeslal/a kredity uživateli:';
+$lang['amount_detail'] = 'V hodnotě:';
+$lang['transactions'] = 'Přehled mých transakcí';
+$lang['confirm_business'] = "Proveď platbu";
+$lang['pay_to_business'] = "Zaplať firmě";
+
+$lang['no_business_account_found'] = "Neexistující podnikatelský účet.";
+$lang['business_username'] = "Identifikace firmy";
+
+$lang['top_up_title'] = "Dobít peněženku lze jedním z následujících snadných způsobů.";
+$lang['top_up_1'] = "Okamžitý TopUp.";
+$lang['top_up_1_1'] = "Dobij peněženku ihned u osoby, která ti vytvořila účet. Předlož hotovost a ona ti dobije tvůj účet odpovídající částkou.";
+$lang['top_up_2'] = "TopUp u podniku";
+$lang['top_up_2_2'] = "Dobij si peněženku u nejbližší firmy přijímající PayMe. Postup stejný jako v kroku výše.";
+$lang['top_up_3'] = "Osobní TopUp";
+$lang['top_up_3_3'] = "Dobít peněženku můžeš i u jakéhokoliv PayMe uživatele. Opět směna hotovosti za dobití účtu.";
+$lang['top_up_4'] = "Bankovní TopUp - lokální";
+$lang['top_up_4_4'] = "Částku, kterou si chceš dobít (TopUp), zašli bankovním převodem na níže uvedený účet. Tvá PayMe peněženka bude dobita ihned po obdržení tvé částky na PayMe lokální účet.";
+$lang['top_up_4_4_cz'] = "<h4>Česká Republika</h4><img src='https://periscopemedia.s3.amazonaws.com/emails/secure-lock.png' width='30' alt='1' ><br><br>Status: <strong>Ověřený / Zabezpečený</strong><br><br><br>Bankovní účet:<br><b>2400597941/2010 Fio Bank</b><br><br>Do poznámek napiš:<br> <br><strong>Své PayMe Username</strong><br>PayMe uživatelské jméno<br>pro osobní účet (např.: John4321 )<br>pro podnikatelský účet (např.: MainStreetCafe)<br><br><hr><strong>Správa účtu</strong><p>Správce PayMe bankovniho účtu vedeného v České Republice je smluvně pověřen firmou Periscope Media LLC. - Rene Hurnik. Periscope Media LLC. má plnou kontrolu nad bankovnim účtem. Účet slouží pouze pro dobíjení a výběr PayMe kreditů na daném území.</p>";
+$lang['top_up_4_4_pl'] = "Polsko<br><br><img src='https://periscopemedia.s3.amazonaws.com/emails/secure-lock.png' width='30' alt='1' ><br><br> Status: Ověřený / Zabezpečený<br><br>Bankovní účet:<br> <b>18 1160 2202 0000 0002 8612 8752 <br />PayMe Polska Sp. z o.o.<br />ul. Książkowa 47B<br />03-134 Warszawa<br />NIP 524-278-24-63</b><br><br>Notes: <br><b>PayMe Username</b>";
+$lang['top_up_4_4_sk'] = "<h4>Slovenská republika</h4><img src='https://periscopemedia.s3.amazonaws.com/emails/secure-lock.png' width='30' alt='1' ><br><br>Status: <strong>Ověřený / Zabezpečený</strong><br><br><br>Bankovní účet:<br><b>2000826397/8330 Fio Bank</b><br><br>Do poznámek napiš:<br> <br><strong>Své PayMe Username</strong><br>PayMe uživatelské jméno<br>pro osobní účet (např.: John4321 )<br>pro podnikatelský účet (např.: MainStreetCafe)<br><br><hr><strong>Správa účtu</strong><p>Správce PayMe bankovniho účtu vedeného v Slovenské republice je smluvně pověřen firmou Periscope Media LLC. - Rene Hurnik. Periscope Media LLC. má plnou kontrolu nad bankovnim účtem. Účet slouží pouze pro dobíjení a výběr PayMe kreditů na daném území.</p>";
+$lang['top_up_5'] = "Bankovní TopUp - centrální PayMe banka";
+$lang['top_up_5_5'] = "Dobití skrze americkou banku - odešli požadovanou částku, obratem máš dobito. (Příjem do PayMe banky je zdarma, ovšem tvá banka může chtít za tuto odchozí platbu poplatek za který zodpovídáš.)";
+
+$lang['top_up_5_bank'] ="<h4 style='padding-bottom:25px;'>PayMe Bank - USA</h4>
+ACCOUNT NUMBER / IBAN <br> <b>9421321713</b> <br><br>
+ROUTING NUMBER (only USA)<br> <b>1210002483</b> <br><br>
+SWIFT / BIC CODE <br><b> WFBIUS6S</b> <br><br><br>
+<b>BUSINESS NAME</b> <br> Periscope Media LLC.</b> <br><br>
+<b>COMPANY ADDRESS</b> <br>Periscope Media LLC., 1344 Flower St., Los Angeles, CA 90015<br><br>
+<b>BANK ADDRESS</b><br> Wells Fargo, 420 Montgomery Street, San Francisco, CA 94104 <br><br>";
+
+$lang['withdraw'] = "Výběr PayMe kreditů";
+$lang['withdraw_title'] = "Vyber nebo využij peníze jedním z následujících snadných způsobů. ";
+$lang['withdraw_1'] = "Aktivní výběr";
+$lang['withdraw_1_1'] = "Výběr peněz vytvořením nového účtu. Jakmile vytvoříš nový účet komukoliv ve tvém okolí, můžeš jej okamžitě nabít výměnou za hotovost.";
+$lang['withdraw_2'] = "Okamžitý výběr";
+$lang['withdraw_2_2'] = "Dobij jakoukoliv PayMe peněženku. PayMe uživatelé neustále hledají ostatní držitele účtu, aby jim dobili jejich peněženku. Dobitím jakéhokoliv PayMe účtu opět získáš hotovost.";
+$lang['withdraw_3'] = "Zaplať podniku a ušetři";
+$lang['withdraw_3_3'] = "Použij prostředky z PayMe peněženky pro platbu a ušetři. Není lepší než výběr, raději danými PayMe prostředky zaplatit ať už osobně či online a ještě k tomu ušetřit několik procent z dané ceny? Tuto možnost vřele doporučujeme, protože placením pomocí PayMe vždy ušetříš.";
+$lang['withdraw_4'] = "Odměna / dárek";
+$lang['withdraw_4_4'] = "Použij PayMe prostředky jako odměnu nebo dárek. Udělej svým přátelům, blízkým, zaměstnancům atd. radost tím, že jim místo dárků nebo hotovosti nabiješ jejich PayMe peněženku. (Případně jim vytvoř a nabij účet.)";
+$lang['withdraw_5'] = "Bankovní výběr";
+$lang['withdraw_5_5'] = "Výběr pomocí bankovního účtu. V PayMe profilu lze také nastavit údaje o tvém bankovním účtu, na který je poté možno převést PayMe prostředky. <ol style='text-align:left; padding-bottom:20px;'><li style='padding-bottom:25px;'>Pokud se nacházíš v zemi, kde je dostupný PayMe lokální účet, tvé prostředky ti budou zaslány bez bankovního poplatku.</li><li  style='padding-bottom:25px;'>Pokud se nenacházíš v zemi, kde je dostupný PayMe lokální účet, bude ti za tuto transakci naúčtován poplatek $25.00. Tento poplatek si bude účtovat tvá banka a není způsob, jak se mu vyhnout.</li><li>Minimální částka výběru = 500Kč</li></ol>";
+$lang['withdraw_6'] = "Payoneer Master Card";
+$lang['withdraw_6_6'] = "Výběr pomocí Payoneer karty. Stačí pouze vyplnit informace o tvé Payoneer kartě v PayMe profilu. Na tuto kartu poté budou PayMe prostředky zaslány zdarma. Pokud Payoneer kartu ještě nemáš, stačí nám poslat žádost o její vyřízení.";
+
+$lang['business_sent_1'] = "platba firmě:";
+$lang['total_amount'] = "Celkem:";
+$lang['you_pay_only'] = "Platíš pouze:";
+$lang['tran_success'] = "Zaplaceno";
+$lang['security_elements'] = "Bezpečnostní prvky";
+
+$lang['transaction_code'] = "Kód transakce";
+$lang['load_info_description'] = "Jakmile aktivuješ svůj účet, zeptej se podniku jak můžeš TopUp (dobít) svůj účet jen za pomoci tvého nového uživatelského jména.";
+$lang['bank_account'] = "Bankovní účet";
+$lang['payoneer_card'] = "Payoneer karta";
+$lang['receive_payment']="Výzva k zaplacení odeslána pro";
+$lang['withdraw_request_success'] = "Tvá žádost o výběr finančních prostředků byla úspěšně přijata. Předpokládaná doba pro převod finančních prostředků jsou 3 pracovní dny.";
+$lang['amount_to_bank_account'] = "Zadej požadovanou částku pro výběr";
+$lang['form_register3'] = 'Zadej uživatelské jméno podniku';
+$lang['form_register4'] = 'Zaplatit';
+
+$lang['no_business_account_found'] = "Neexistující podnikatelský účet.";
+$lang['business_payment_info'] = "Zaplať firmě";
+$lang['total'] = "Celkem";
+$lang['total_amount'] = "Celkem:";
+$lang['execution_time'] = "Doba realizace";
+$lang['localization'] = "Lokalizace";
+$lang['business_username'] = "Uživatelské jméno podniku";
+$lang['create_account_and_continue'] = "Vytvořit účet a pokračovat";
+$lang['homepage_text_1'] = "Přihlas se ke svému účtu.";
+$lang['homepage_text_2'] = "Ještě nemáš PayMe účet?";
+
+
+$lang['account_updated'] = "Účet byl aktualizován";
+$lang['amount_to_bank_account'] = "Napiš částku, kterou chceš poslat na bankovní účet";
+$lang['amount_to_payoneer'] = "Napiš částku, kterou chceš poslat na Payoneer kartu";
+$lang['withdraw_request_success'] = "Tvůj požadavek byl úspěšně přijat. Převod se uskuteční během následujících 3 pracovních dnů.";
+$lang['amount_more_then_500_czk'] = "Množství musí být větší než";
+$lang['amount_input'] = "Množství";
+$lang['tip_input'] = "Spropitné";
+$lang['login_to_pay'] = "Přihlásit se k účtu";
+$lang['dont_have_an_account'] = "Ještě nemáš účet";
+$lang['pay_now'] = "Pay Now";
+$lang['cashback'] = "Zpátky do peněženky";
+$lang['submit_picture'] = "Nahrát fotku";
+$lang['personal_data'] = "Osobní informace";
+$lang['account_not_activated_yet'] = "Účet se ověřuje.";
+
+$lang['new_account_title'] = "Proč bych si měl vytvořit účet?";
+$lang['new_account_1'] = "Účet je<br/>zdarma";
+$lang['new_account_2'] = "Snadné<br/>nabití";
+$lang['new_account_3'] = "Každodenní šetření";
+
+$lang['bank_data'] = "Bankovní informace";
+$lang['submit_picture'] = "Nahrát obrázek";
+$lang['personal_data'] = "Osobní informace";
+$lang['submit_credits'] = "Přijmout";
+$lang['decline_credits'] = "Odmítnout";
+$lang['lost_password'] = "Zapoměl jsem heslo";
+$lang['account_email_no_found'] = "Účet s tímto emailem nebyl nalezen.";
+$lang['email_was_sent'] = "Email byl odeslán.";
+$lang['tax_id'] = "IČ";
+$lang['tax_id2'] = "DIČ";
+$lang['note_description'] = "Zpráva pro příjemce";
+$lang['regular_transactions'] = "Pravidelné platby";
+$lang['business_name'] = "Název podniku";
+
+$lang['validation_required'] = "Ups vyplnit %s je povinné!";
+$lang['validation_min_length'] = "Minimální délka pro %s je %s znaků!";
+$lang['validation_max_length'] = "Maximální délka pro %s je %s znaků!";
+$lang['validation_valid_email'] = "Vložte korektní email!";
+$lang['validation_is_unique'] = "Toto uživatelské jméno již je registrováno! Zvolte jiné.";
+$lang['Monday'] = "Pondělí";
+$lang['Tuesday'] = "Úterý";
+$lang['Wednesday'] = "Středa";
+$lang['Thursday'] = "Čtvrtek";
+$lang['Friday'] = "Pátek";
+$lang['Saturday'] = "Sobota";
+$lang['Sunday'] = "Neděle";
+$lang['confirm_payment'] = "Potvrď platbu";
+
+$lang['merchant_username'] = "Uživatelské jméno podniku";
+$lang['transaction-details-message'] = "<strong>E-mailové potvrzení:</strong> Detaily této transakce byly zaslány na tvůj emal.";
+$lang['add_merchant_account'] = "Nový vlastní podnikatelský účet";
+$lang['settings'] = "Nastavení";
+$lang['personal_account'] = "Osobní účet";
+$lang['my_accounts'] = "Moje účty";
+
+$lang['payment_to'] = "Platba pro:";
+$lang['details'] = "DETAILY:";
+$lang['day'] = "Den";
+$lang['date'] = "Datum";
+$lang['time'] = "Čas";
+$lang['what-kind-account-info'] = "Chceš vytvořit osobní nebo podnikatelský účet? Příslušnou možnost si vyber zde.";
+$lang['personal-data'] = "Osobní data";
+$lang['personal-data-info'] = "PayMe účet si vytvoříš během pár minut. Tvé osobní informace jsou zabezpečeny a nejsou s nikým sdíleny.";
+$lang['choose-country'] = "Vyber zemi";
+$lang['choose-currency'] = "Vyber PayMe měnu účtu";
+$lang['provided'] = "Informace, které jsem poskytl, jsou pravdivé a správné. Pokračováním a vytvořením bezplatného PayMe Periscope účtu, souhlasím s PayMe Periscope <a href='https://www.paymeperiscope.com/terms-and-conditions/'>pravidly a podmínkami</a>.";
+$lang['merchant-details'] = "Údaje o podniku";
+$lang['merchant-details-info'] = "Začni přijímat PayMe Periscope ve svém podniku během několika dní. Po vyplnění formuláře nezapomeň potvrdit svůj nový účet v emailu.";
+$lang['name_establishment-info'] = "Celý název společnosti";
+$lang['business_name-info'] = "Název podniku, kde bude akceptováno PayMe. Tento název bude zobrazován na uživatelských potvrzeních o platbě. Pokud podnik je eshop nebo pouze na webu, vyplň zde název vebových stránek.";
+$lang['merchant_username-info'] = "Slouží jako způsob identifikace při placení, kdy uživatelé budou při platbě zadávat právě toto UŽIVATELSKÉ JMÉNO. Vyber uživatelské jméno, které vyhovuje tvému podniku.";
+$lang['tax_id-info'] = "Identifikační číslo osoby je v České republice unikátní osmimístné identifikační číslo právnické osoby, podnikající fyzické osoby nebo organizační složky státu.";
+$lang['tax_id2-info'] = "Daňové identifikační číslo (DIČ) je jedinečnou a jednoznačnou identifikací každého daňového subjektu, právnické nebo fyzické osoby, která je plátcem daně (daňovým poplatníkem).";
+$lang['type_establishment-info'] = "Vyber kategorii, do které podnik spadá. Můžeš vybrat i více možností.";
+$lang['describe_business-info'] = "Uveď podrobný popis tvého podniku. Tyto informace slouží pro detailnější profil podniku na www.paymefinder.com. Pokud už podrobný popis podniku existuje na nějaké webové stránce, uveď ji.";
+$lang['url-info'] = "Zadej www stránky podniku, např. www.mujpodnik.cz";
+$lang['set_merchant_put-info'] = "Zde nastav PUT podniku. PUT je použit jako finanční motivace pro tvé zákazníky při nákupu, stejně jako když doporučují tvůj podnik. Minimální PUT je 1%. Čím větší PUT, tím větší motivace.";
+$lang['own-merchant-account'] = "Přidej svůj nový podnikatelský účet";
+$lang['own-merchant-account-info'] = "Udržuj všechny své účty na jednom místě. Vyplň formulář níže a přidej společnost či podnik ke svému účtu. Tohle je skutečně užitečné když máš více než jednu společnost či podnik. Každý účet bude mít unikátní username a přístup. Budeš tedy mít možnost přístupovat ke všem svým účtům ze svého osobního účtu.";
+$lang['ip_location'] = "Tvá IP adresa: ";
+$lang['video_tutorials'] = "Video tutoriály & Pomoc";
+$lang['payme-wallet'] = "Domů - PayMe peněženka";
+$lang['payme-website'] = "Domů - PayMe www stránky";
+$lang['terms-conditions'] = "Pravidla & Podmínky";
+$lang['privacy-policy'] = "Ochrana osobních údajů";
+$lang['merchant_url'] = "WWW stránky podniku";
+$lang['account-image'] = "Fotografie účtu";
+$lang['account-image-info'] = "Tví zákazníci uvidí tvou fotografii, když ti budou platit. Fotografii pro tvůj účet vyber zde. Optimální fotografie: čtvercová o rozměrech 300 x 300 pixelů.";
+$lang['employee-account'] = "Zaměstnanecké účty";
+$lang['employee-account-info'] = "Přidej a odeber účty pro své zaměstnance.";
+$lang['employee-allows'] = "Zaměstnanecké účty mohou:";
+$lang['employee-allows-details'] = "<ol><li>Dobít (TopUp) zákazníka</li><li>Vytvářet nové účty</li><li>Přijímat platby</li><li>Vidět výpis transakcí</li></ol>";
+$lang['employee-allows-cant'] = "Zaměstnanci nemohou vidět žádné citlivé bankovní informace nebo stav peněženky.";
+$lang['employee-url'] = "Zaměstnanecká URL:";
+$lang['employee-url-info'] = "Zaměstnanci budou přistupovat ke svým účtům srkze odkaz níže.";
+$lang['account-image-info-user'] = "Fotografii pro tvůj účet vyber zde. Optimální fotografie: čtvercová o rozměrech 300 x 300 pixelů.";
+$lang['employee-acces-code'] = "Přístupový kód";
+$lang['all-accounts'] = "Všechny tvé účty na jednom místě:";
+$lang['my-merchant-accounts'] = "Mé podnikatelské účty:";
+$lang['contact_person'] = "Kontaktní osoba";
+$lang['contact_phone'] = "Kontaktní telefon";
+$lang['will-receive'] = " obdrží:";
+$lang['contact_person-info'] = "Kontaktní osoba spjatá s podnikem.";
+$lang['contact_phone-info'] = "Telefonní číslo spjaté s tímto podnikem či prodejnou.";
+$lang['transaction_accepted'] = "Transakce úspěšně přijata";
+$lang['toppedup_total'] = "Dobito";
+$lang['merchant_income_total'] = "Příjem podniku";
+$lang['income_total'] = "Jiný příjem";
+$lang['savings_income'] = "Zpátky do penženky";
+$lang['payme_income'] = "PayMe příjem";
+$lang['periscope_income'] = "Periscope příjem";
+$lang['available_to_withdraw'] = "K dispozici pro výběr";
+$lang['show_amount'] = "Ukázat detaily";
+$lang['no_withdraw_text'] = "Na tvém účtu v tuto chvíli nejsou prostředky dostupné pro bankovní výběr.<br>Níže uvedené jsou další možnosti výběru a uplatnění tvých PayMe kreditů";
+$lang['transaction_accepted'] = "TRANSAKCE BYLA POTVRZENA!";
+$lang['private_note_description'] = "Moje poznámka";
+$lang['credits_on_hold_message'] = "Právě jsi poslal ze své PayMe peněženky kredity. Tato částka je nyní nedostupná a čeká se, až uživatel kterému jsi kredity poslal, přijme nebo odmítne tuto transakci.";
+
+$lang['manage_employees'] = "Zaměstnanecké účty";
+$lang['employee_info'] = "Přidej nebo zruš zaměstnanecké účty. Po zadaní PayMe uživatelského jména zaměstnance, bude zaměstnanec bude okamžitě přidán do tvého seznamu zaměstnanců a daný zaměstnanec se nyní dostane ze svého PayMe účtu do zaměstnaneckého účtu tvého podniku s omezeným přístupem k informacím podniku.";
+$lang['employee_info2'] = "Zaměstnancům, kteří ještě nemají PayMe účet, vytvoř PayMe účet na této stránce.";
+$lang['employee_name'] = "Jméno zaměsnance";
+$lang['create_employee_account'] = "Vytvořit nový PayMe účet";
+$lang['my-employee-accounts'] = "Mé zaměstnanecké účty";
+$lang['employee_was_added'] = "Zaměstnanec byl přidán!";
+
+$lang['customer_tr'] = "Zákazník";
+$lang['date_time_tr'] = "Datum a Čas";
+$lang['business_income_tr'] = "Tržba";
+$lang['top_up_tr'] = "Odchozí";
+$lang['from_username_tr'] = "Provedl";
+$lang['status_tr'] = "Stav";
+$lang['transaction_report_tr'] = "Report transakcí";
+$lang['terms_explanation_tr'] = "Vysvětlivky";
+$lang['date_time_tr_ex'] = "Datum a čas transakce.";
+$lang['customer_tr_ex'] = "Uživatelské jméno zákazníka, který provedl transakci.";
+$lang['business_income_tr_ex'] = "Tržba podniku za danou transakci";
+$lang['tip_ex'] = "Spropitné náležící obsluze";
+$lang['top_up_tr_ex'] = "Částka, která byla nabita zákazníkovi z účtu podniku. Tato částka je vybírána od zákazníka v hotovosti.";
+$lang['from_username_tr_ex'] = "Tuto transakci provedl - uživatelské jméno";
+$lang['status_tr_ex'] = "Stav transakce. Může být ok, pending=čeká se na přijetí, nebo odmítnutí, declined=transakce byla odmitnuta, tudiž neproběhla.";
+$lang['business_income_wallet_tr'] = "Bez PUTu";
+$lang['business_income_w_tip_tr'] = "Plus spropitné";
+$lang['amount_top_up'] = "Částka dobití přes lokální bankovní ůčet.";
+$lang['other_payment_options'] = "Jiné platby";
+
